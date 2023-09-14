@@ -21,9 +21,9 @@ spec:
   - name: build-image
     value: eclipse-temurin:17-jdk
   - name: repo-url
-    value: https://github.com/ctcampbellcom/webgoat-in-a-folder
+    value: https://github.com/bxtp4p/webgoat
   - name: source-path-dir
-    value: webgoat
+    value: .
   - name: codeql-language
     value: java
   - name: codeql-build-command
