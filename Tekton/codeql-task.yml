@@ -87,8 +87,8 @@ spec:
     - name: GITHUB_TOKEN
       valueFrom:
         secretKeyRef:
-          name: $(params.github-token-secret)
-          key: github-token
+            name: github-token
+            key: token
     script: | 
       #!/usr/bin/env bash
       set -ex
